@@ -4,7 +4,7 @@ import MeuObjeto.model.Estojo;
 public class VerificarObj {
     public static void main(String[] args){
 
-        Estojo estojo1 = new Estojo("plastico", "cilindrico", 100.0);
+        Estojo estojo1 = new Estojo("plastico", "cilindrico", 100.0, false);
 
         System.out.println("Seu estojo é de "+estojo1.material);
         System.out.println("Seu estojo é do formato: "+estojo1.formato);

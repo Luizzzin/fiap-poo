@@ -4,27 +4,28 @@ public class Estojo {
     public String material;
     public String formato;
     public double capacidadeEmMl;
-    public boolean estado = true;
+    public boolean ziper;
 
-    public Estojo(String material, String formato, double capacidadeEmMl){
+    public Estojo(String material, String formato, double capacidadeEmMl, boolean ziper){
         this.material = material;
         this.formato = formato;
         this.capacidadeEmMl = capacidadeEmMl;
+        this.ziper = true;
     }
     public void abrir(){
-        if (estado = true){
+        if (ziper = true){
             System.out.println("Seu estojo ja esta aberto!!");
             return;
         }
-        estado = true;
+        this.ziper = true;
         System.out.println("abrindo estojo, zooooooop!");
     }
     public void fechar(){
-        if (estado = false){
+        if (ziper = false){
             System.out.println("Seu estojo ja esta fechado!");
             return;
         }
-        estado = false;
+        this.ziper = false;
         System.out.println("Fechando estojo!! Zuuuuuump!");
         return;
     }
