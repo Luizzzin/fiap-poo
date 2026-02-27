@@ -10,7 +10,7 @@ public class Estojo {
         this.material = material;
         this.formato = formato;
         this.capacidadeEmMl = capacidadeEmMl;
-        this.ziper = true;
+        this.ziper = ziper;
     }
     public void abrir(){
         if (ziper = true){
