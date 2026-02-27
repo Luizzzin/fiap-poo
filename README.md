@@ -38,3 +38,33 @@ O construtor serve para criar o objeto já com suas características definidas.
 
 ```java
 Estojo estojo1 = new Estojo("Tecido", "Retangular", 500.0, false);
+```
+##⚙️ Métodos
+###🔓 abrir()
+
+Abre o estojo.
+Se ele já estiver aberto, o sistema informa isso.
+
+```java
+estojo1.abrir();
+```
+---
+###🔓 fechar()
+
+Fecha o estojo
+se estiver fechado, o sistema ira informar.
+```java
+estojo1.fechar();
+```
+---
+##🎯 Objetivo da Atividade
+
+O objetivo desta atividade foi:
+
+- Criar uma classe em Java
+
+- Representar um objeto do mundo real
+
+- Implementar atributos e métodos
+
+- Manipular o estado do objeto
