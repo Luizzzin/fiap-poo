@@ -39,8 +39,8 @@ O construtor serve para criar o objeto já com suas características definidas.
 ```java
 Estojo estojo1 = new Estojo("Tecido", "Retangular", 500.0, false);
 ```
-##⚙️ Métodos
-###🔓 abrir()
+## ⚙️ Métodos
+### 🔓 abrir()
 
 Abre o estojo.
 Se ele já estiver aberto, o sistema informa isso.
@@ -49,7 +49,7 @@ Se ele já estiver aberto, o sistema informa isso.
 estojo1.abrir();
 ```
 ---
-###🔓 fechar()
+### 🔓 fechar()
 
 Fecha o estojo
 se estiver fechado, o sistema ira informar.
@@ -57,7 +57,7 @@ se estiver fechado, o sistema ira informar.
 estojo1.fechar();
 ```
 ---
-##🎯 Objetivo da Atividade
+## 🎯 Objetivo da Atividade
 
 O objetivo desta atividade foi:
 
